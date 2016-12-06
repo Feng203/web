@@ -1,0 +1,12 @@
+main .el-hedadbox {
+  margin-top: 5px;
+  padding: 20px;
+  background-color: #F4F8FA;
+  border-left: 2px solid #0099DD;
+  margin-bottom: 20px;
+}
+main .el-hedadbox h3 {
+  color: #0099DD;
+  font-size: 24px;
+  font-weight: 500;
+}

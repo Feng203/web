@@ -1,0 +1,110 @@
+
+main {
+    padding-top: 5px;
+    #sidebar {
+        .list-group{
+            margin-bottom: 0;
+            border-bottom: 0;
+            border-radius: 0;
+            .list-group-item:last-child {
+                border-radius: 0;
+                border-bottom: 0;
+            }
+        }
+        a {
+            text-indent: 20px;
+            color: #337ab7;
+            &.active {
+                background-color: #F5F5F5;
+                border: 1px solid #ddd;
+                border-radius: 0;
+                color: #337ab7;
+                text-indent: 0;
+                &:hover {
+                    background-color: #F5F5F5;
+                    color: #204D74;
+                    text-decoration: none;
+                }
+            }
+             &:hover {
+                   background-color: #337ab7;
+                    color: #fff;
+                    text-decoration: none;
+                }
+        }
+        #lasta{
+            border-bottom: 1px solid #ddd;
+            border-bottom-right-radius: 4px;
+            border-bottom-left-radius: 4px;
+        }
+        #fista{
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+    }
+    .border-1{
+        margin-top: 10px;
+        height: 150px;
+        width: 140px;
+        border: 1px solid #e3e3e3;
+        &:nth-of-type(1){
+             margin-right: 10px;
+         }
+        p{
+            margin-bottom: 5px;
+            width: 100%;
+            height: 20px;
+            margin-top: 5px;
+            line-height: 20px;
+            padding-bottom: 0px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #337ab7;
+            text-align: center;
+        }
+        div{
+            margin: 0 auto;
+            height: 100px;
+            width: 110px;
+            border: 1px solid #e3e3e3;
+        }
+    }
+    #btnbox{
+        margin-top: 20px;
+    }
+    .el-tip-info{
+    padding: 20px;
+    background-color: #F4F8FA;
+    border-left: 2px solid #0099DD;
+    margin-bottom: 20px;
+    h3{
+    color: #09d;
+    }
+    .text-danger{
+        margin-right: 30px;
+    }
+    }
+    .el-text{
+        padding-bottom: 9px;
+        margin: 40px 0 20px;
+        border-bottom: 1px solid #eee;
+        font-size: 21px;
+        .label{
+            margin-left: 10px;
+        }
+    }
+    form{
+        position: relative;
+    }
+    .el-borrow-form-tip{
+            width: 300px;
+            border-radius: 3px;
+            border: 1px solid #ddd;
+            box-shadow: 1px 1px 20px #ddd;
+            padding: 20px 30px;
+            position: absolute;
+            top: 10px;
+            right: 100px;
+    }
+}
+
