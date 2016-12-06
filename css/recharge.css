@@ -1,0 +1,30 @@
+main .tab-pane {
+  border: 1px solid #ddd;
+  border-top: 0;
+}
+main .tab-pane h3 {
+  margin: 0;
+  padding: 10px;
+}
+main .table {
+  width: 94%;
+  margin: 0 auto;
+}
+main .table th {
+  font-size: 16px;
+}
+main .table span {
+  display: block;
+  width: 150px;
+  height: 30px;
+  background: url("../images/bank_list.png") no-repeat;
+}
+main .table tr:nth-of-type(2) td span {
+  background-position: 0 -36px;
+}
+main .table tr:nth-of-type(3) td span {
+  background-position: 0 -108px;
+}
+main .text-info {
+  padding-left: 40px;
+}

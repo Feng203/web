@@ -1,0 +1,22 @@
+#main {
+  margin-bottom: 40px;
+}
+#main .text-muted {
+  color: #777;
+}
+#main .panel-heading {
+  padding-left: 0px;
+}
+#main .btn-group {
+  margin-left: 20px;
+}
+#main .btn-group .btn {
+  padding: 6px 30px;
+}
+#main .table {
+  font-size: 16px;
+  margin-top: 20px;
+}
+#main .table .text-muted {
+  border-bottom: 2px solid #ddd;
+}
