@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="js/bootstrap-3.3.2-dist/css/bootstrap.css" type="text/css" />
+		<script type="text/javascript" src="js/jquery/jquery-2.1.3.js"></script>
+		<script type="text/javascript" src="js/bootstrap-3.3.2-dist/js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/jquery.bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/commonality.css">
+		<link rel="stylesheet" href="css/realAuth.css">
+		<title></title>
+	</head>
+
+	<body>
+		<header id="el-nav" class="navbar navbar-inverse">
+			<div class="container">
+				<div class="navbar-right" id="login-nav">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">首页</a></li>
+						<li><a href="login.html">登录</a></li>
+						<li><a href="####">快速注册</a></li>
+						<li><a href="####">帮助</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<div id="el-column" class="el-topBar navbar-default el-navbar">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="####"><img src="images/logo.png" /></a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="invest.html">我要投资</a></li>
+					<li><a href="borrow.html">我要借款</a></li>
+					<li><a href="personal.html">个人中心</a></li>
+					<li><a href="####">新手指引</a></li>
+					<li><a href="####">关于我们</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<main class="container" id="main">
+			<div class="row">
+				<div id="sidebar" class="col-md-3">
+					<div class="list-group">
+						<a id="fista" href="#" class="list-group-item active">
+					   投资项目
+				  	</a>
+					</div>
+					<div class="list-group">
+						<a href="#" class="list-group-item active">
+					   借款项目
+				  	</a>
+						<a href="#" class="list-group-item">借款项目</a>
+						<a href="#" class="list-group-item">还款明细</a>
+					</div>
+					<div class="list-group">
+						<a href="#" class="list-group-item active">
+					   我的账户
+				  	</a>
+						<a href="#" class="list-group-item">账户信息</a>
+						<a href="#" class="list-group-item">实名认证</a>
+						<a href="#" class="list-group-item">银行卡管理</a>
+						<a href="#" class="list-group-item">登记记录</a>
+					</div>
+					<div class="list-group">
+						<a href="#" class="list-group-item active">
+					   资产详情
+				  	</a>
+						<a href="#" class="list-group-item">账户流水</a>
+						<a href="#" class="list-group-item">充值明细</a>
+						<a href="#" class="list-group-item">提现记录</a>
+						<a href="#" class="list-group-item">收款明细</a>
+					</div>
+					<div class="list-group">
+						<a id="lasta" href="#" class="list-group-item active">
+					   个人资料
+				  	</a>
+					</div>
+
+				</div>
+				<div class="col-md-9">
+					<div class="panel panel-default">
+						<div class="panel-heading">实名认证</div>
+						<div class="panel-body" style="padding-left: 0px;padding-right: 0px;">
+							<div class="table-responsive">
+								<table class="table table-striped table-hover">
+									<thead>
+										<tr>
+											<th>ID</th>
+											<th>姓名</th>
+											<th>身份证</th>
+											<th>电话</th>
+											<th>城市</th>
+											<th>审核状态</th>
+											<th>编辑</th>
+										</tr>
+									</thead>
+									<tbody id="el-tabl">
+									</tbody>
+									<tfoot></tfoot>
+								</table>
+							</div>
+						</div>
+
+						<div class="panel-footer">
+							<div id="el-table-footer"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+
+		<footer class="container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<p>专业Java培训、PHP培训、UI培训、iOS培训、高级Web前端培训机构</p>
+						<p>版权所有： 2006-2015成都源代码教育咨询有限公司</p>
+						<p>地  址： 成都市高新区府城大道西段399号天府新谷1号楼620-625</p>
+						<p>电  话： 028-86261949 / 400-808-6840  邮箱： yuandaima@itsource.cn</p>
+						<p><a href="###">蜀ICP备14030149号-1</a><a href="###">蜀公网安备510114990541</a></p>
+						<p></p>
+					</div>
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-6 col-xs-6">官方微博：<img class="img-responsive" src="images/tecent.png">
+								<img src="images/sina.png" class="img-responsive">
+
+							</div>
+							<div class="col-md-6 col-xs-6">官方微信：<img src="images/contract.png" class="img-responsive"></div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+		<!--model-->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">实名认证</h4>
+					</div>
+					<div class="modal-body">
+						<div class="panel-body">
+							<div id="logbox">
+								<form class="form-inline">
+									<div class="form-group" id="formbox" style="margin:10px auto">
+										<p><label style="margin-right: 10px;">姓&emsp;名</label><input id="model-username" type="text" class="form-control" /></p>
+										<p><label style="margin-right: 10px;">身份证</label><input id="model-id" type="text" class="form-control" /></p>
+										<p><label style="margin-right: 10px;">城&emsp;市</label><input id="model-city" type="text" class="form-control" /></p>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">确定</button>
+						<button type="button" class="btn btn-primary" id="ligin-cles">取消</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			$(function() {
+				function show(page) {
+					if (page == undefined) {
+						page = 1;
+					};
+					$.ajax({
+						type: "get",
+						async: false,
+						dataType: "jsonp",
+						url: "http://127.0.0.1:3000/mockapi",
+						success: function(data) {
+							var dataArr=data.itemGroup;
+							var btn = "<div class='btn-toolbar btn-group' role='toolbar' aria-label='...'>";
+							var countnum = Math.ceil(data.itemGroup.length / 8); //总页数
+								for (var j = 1; j <= countnum; j++) {
+									btn += "<button type='button' class='btn btn-default'>" + j + "</button>"
+								};
+							btn += "</div>";
+							$("#el-table-footer").html(btn);
+							var i = 0;
+							i = (page - 1) * 8;
+							var num = page * 8 - 1;
+							var text="";
+							for (i; i <= num; i++) {
+								if (i == data.itemGroup.length) {
+									break;
+								};
+								text += "<tr><td>" + data.itemGroup[i].id + "</td>";
+								text += "<td >" + data.itemGroup[i].name + "</td>";
+								text += "<td>" + data.itemGroup[i].idCard + "</td>";
+								text += "<td>" + data.itemGroup[i].phone + "</td>";
+								text += "<td>" + data.itemGroup[i].city + "</td>";
+								text += "<td>" + data.itemGroup[i].status + "</td>";
+								text += "<td><button type='button' class='btn btn-primary' style='margin-right:10px'>编辑</button><button type='button' class='btn btn-danger'>删除</button></td>";
+							}
+							$("#el-tabl").html(text);
+							
+						}
+					});
+				}
+//							
+			
+				show();
+				$("#el-table-footer").delegate("button", "click", function() {
+					show($(this).text());
+					console.log($(this).text());
+				});
+				$('#myModal').on('show.bs.modal', function () {
+					$("#login-username").attr("value","1111");
+				})
+				$('#myModal').on('show.bs.modal', function () {
+					$("#login-username").attr("value","1111");
+				})
+				//console.log($("tbody tr"));//没有输出成功????
+				$("table tbody").delegate(".btn-primary", "click", function(e) {
+					console.log(e.target);
+					$('#myModal').modal('show');
+					var arr2=$(this).parent().parent().children();
+					$("#model-username").val(arr2[1].innerText);
+					$("#model-id").val(arr2[2].innerText);
+					$("#model-city").val(arr2[4].innerText);
+				});
+				$("table tbody").delegate(".btn-danger", "click", function() {
+					console.log(this);
+				});
+					//				$("table tbody .btn-primary").click(
+					//					function(){
+					//						console.log("编辑");
+					//					});
+					//				$("table tbody .btn-danger").click(function(){
+					//					console.log("shangchu");
+					//				});
+			})
+		</script>
+	</body>
+
+</html>
